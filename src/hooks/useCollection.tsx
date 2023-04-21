@@ -4,11 +4,9 @@ import {
   collection,
   DocumentData,
   query,
-  CollectionReference,
   Query,
 } from "firebase/firestore";
 import { db } from '../Firebase';
-import { QueryDocumentSnapshot } from "firebase/firestore/lite";
 
 
 interface Channels {
